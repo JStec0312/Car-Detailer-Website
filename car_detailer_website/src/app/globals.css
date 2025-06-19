@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+body {
+    font-family: 'Jura', sans-serif;
+}
+
+@theme{
+  --color-primary: #0F0F0F;
+  --color-secondary: #FFDC00;
+  --font-primary: 'Jura', sans-serif;
+  --spacing-content:1400px;
+}
