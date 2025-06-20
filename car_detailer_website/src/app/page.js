@@ -6,6 +6,7 @@ import Gallery from "@/components/Home/Gallery"
 import FancyCards from "@/components/Home/FancyCards"
 import Opinions from "@/components/Home/Opinions"
 import Footer from "@/components/Footer"
+import ColorPicker from "@/components/ColorPicker"
 export default function Home() {
   return (
     <main className="flex flex-col gap-16 pb-8">
@@ -21,6 +22,7 @@ export default function Home() {
         <FancyCards/>
         <Opinions/>
         <Footer/>
+        <ColorPicker />
     </main>
   )
 }

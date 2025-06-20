@@ -10,7 +10,7 @@ export default function Topbar() {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
 
-            if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+            if (currentScrollY > lastScrollY.current ) {
                 if (show !== false) setShow(false);
             } else {
                 if (show !== true) setShow(true);
@@ -38,7 +38,7 @@ export default function Topbar() {
 
     return (
         <div
-            className={`hidden md:block fixed top-0 left-0 w-full  bg-secondary text-[#222222] z-50 transition-transform duration-300 ${
+            className={`hidden md:block fixed top-0 left-0 w-full  bg-secondary text-primary z-50 transition-transform duration-300 ${
                 show ? 'translate-y-0' : '-translate-y-full '
             }`}
         >
