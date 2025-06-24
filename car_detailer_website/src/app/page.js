@@ -6,6 +6,7 @@ import Gallery from "@/components/Home/Gallery"
 import FancyCards from "@/components/Home/FancyCards"
 import Opinions from "@/components/Home/Opinions"
 import Footer from "@/components/Footer"
+import { Analytics } from "@vercel/analytics/next"
 import ColorPicker from "@/components/ColorPicker"
 export default function Home() {
   return (
@@ -22,7 +23,6 @@ export default function Home() {
         <FancyCards/>
         <Opinions/>
         <Footer/>
-        <ColorPicker />
     </main>
   )
 }
